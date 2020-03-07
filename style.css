@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  text-align: center;
+}
+
+body {
+  background-color: chocolate;
+  text-align: center;
+  color: white;
+  font-style: italic;
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-gap: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.cross {
+  text-decoration: line-through;
+  color: red;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  background-color: darkgoldenrod;
+  margin: 5px;
+  padding: 5px;
+}
+
+button {
+  padding: 4px;
+}
