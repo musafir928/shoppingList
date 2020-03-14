@@ -3,6 +3,8 @@
   padding: 0;
   direction: rtl;
   text-align: center;
+  outline: none;
+  border-radius: 15px;
 }
 
 body {
@@ -20,19 +22,66 @@ ul {
   list-style-type: none;
 }
 
-.cross {
+.jijish {
   text-decoration: line-through;
-  color: red;
+  color: black;
+  background-color: cornflowerblue;
 }
 
 li {
+  box-shadow: black 5px 5px 5px;
   display: flex;
   justify-content: space-between;
   background-color: darkgoldenrod;
-  margin: 5px;
-  padding: 5px;
+  margin: 15px;
+  padding: 15px;
+  transition: 1s;
 }
 
 button {
   padding: 4px;
+}
+
+input {
+  padding: 5px;
+  border: none;
+  background-color: chocolate;
+  border-bottom: white solid 2px;
+  padding: 10px;
+  color: white;
+}
+
+input {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 5px;
+}
+
+.stick {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 45px;
+}
+
+input::placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+button {
+  border: none;
+  background-color: palegoldenrod;
+}
+
+button:hover {
+  background-color: red;
+  color: white;
+  box-shadow: white 5px 5px 5px;
+}
+
+li:hover {
+  box-shadow: white 5px 5px 5px;
+  /* box-shadow: none; */
+  bottom: -20px;
+  transition: 1s;
 }
